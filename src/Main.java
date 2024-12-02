@@ -1,3 +1,4 @@
+// Import pakietu scanner
 import java.util.Scanner;
 
 public class Main {
@@ -20,6 +21,7 @@ public class Main {
         System.out.println("Odejmowanie: " + dzialania.odej(a, b));
         System.out.println("Mnożenie: " + dzialania.mnoz(a, b));
 
+        // Dzielenie
         int wynikDzielenia = dzialania.dziel(a, b);
         if (wynikDzielenia != Integer.MIN_VALUE) {
             System.out.println("Dzielenie: " + wynikDzielenia);

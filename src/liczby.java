@@ -1,3 +1,4 @@
+// Implementacja interfejsu
 public class liczby implements dzialania {
     // Prywatne pola
     private int liczba1;
